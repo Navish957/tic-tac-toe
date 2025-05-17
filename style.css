@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    /* background: linear-gradient(120deg, #000046, #1cb5e0); */
+    background-image: url('bg.portfolio.jpg');
+    background-size: cover;
+    text-align: center;
+    font-family: monospace;
+}
+#title{
+   font-weight: bolder;
+   text-decoration: underline;
+   text-transform: uppercase;
+   padding: 20px;
+   margin-bottom: 2px;
+}
+.container{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+
+}
+.btns{
+    margin-top: 20px;
+}
+.game{
+    margin-top: 10px;
+    height: 60vmin;
+    width: 60vmin;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    margin: 4px;
+    border-radius: 1rem;
+    border: none;
+    color: #111;
+    box-shadow: 0 0 1rem rgba(77, 76, 76, 0.5);
+    font-size: 8vmin;
+    background-color: lightcyan;
+    
+}
+.box:hover{
+    color: #111;
+    box-shadow: 0 1rem 2rem rgba(77, 76, 76, 0.5);
+}
+.resetbtn, #newGame{
+    margin: 0px 10px 10px 10px ;
+    padding: 15px;
+    border-radius: 1rem;
+    border: none;
+    font-size: large;
+    border-radius: 50px;
+    background: linear-gradient(to left, rgb(243, 124, 124), rgb(77, 77, 243));
+    color: #342929;
+    font-weight: bolder;
+}
+
+.resetbtn:hover, #newGame:hover{
+    box-shadow: 0 0 1rem rgba(77, 76, 76, 0.5);
+    background: linear-gradient(to right, rgb(243, 124, 124), rgb(77, 77, 243));
+}
+
+
+#winner{
+    font-family: 'Courier New', Courier, monospace;
+    display: none;
+}
+#matchTie{
+    font-family: 'Courier New', Courier, monospace;
+    display: none;
+}
+
+#winner{
+    color: #212424;
+    margin-bottom: 5px;
+}
